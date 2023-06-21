@@ -1,0 +1,29 @@
+.footer {
+  height: 20vh;
+  position: absolute;
+  top: 230%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Inter", sans-serif;
+  color: #6b6e6f;
+  background-color: #2e3538;
+}
+
+.footer a {
+  color: #6b6e6f;
+}
+
+.footer a:hover {
+  color: #7676e9;
+}
+
+
+
+@media screen and  (max-width: 499px){
+  .footer{
+  top: 410%;
+  }
+}

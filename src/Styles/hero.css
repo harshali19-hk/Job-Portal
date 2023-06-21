@@ -1,0 +1,172 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Poltawski+Nowy:ital,wght@1,500&family=Poppins:wght@300&family=Satisfy&display=swap");
+
+:root {
+  font-family: "Inter", sans-serif;
+  color: #7676e9;
+  color: #2b3940;
+}
+
+.hero-banner {
+  height: 120vh;
+  background-color: #f4f5f8;
+  clip-path: polygon(0 0, 100% 0, 100% 88%, 0 100%);
+  font-family: "Inter", sans-serif;
+}
+
+/* right side */
+.hero-img img {
+  width: 490px;
+  height: 500px;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+
+/* left side */
+
+input:focus {
+  outline: none;
+}
+
+.hero-content {
+  position: absolute;
+  top: 40%;
+  margin-left: 50px;
+  text-align: start;
+}
+
+.hero-content h1 {
+  margin-bottom: 20px;
+
+  font-size: 4rem;
+}
+
+.hero-content .hero-heading {
+  padding: 30px 0 8px;
+  position: relative;
+}
+
+.hero-content .hero-heading::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 16px;
+  width: 200px;
+  height: 14px;
+  transform: skew(-12deg) translateX(-50%);
+  background: rgba(238, 111, 87, 0.5);
+  z-index: -1;
+}
+
+/* search bar css */
+
+.searchBar {
+  margin: 5px;
+  padding: 12px 0 10px 40px;
+  border: none;
+  border-radius: 5px;
+}
+
+.icon1 {
+  position: absolute;
+  left: 15px;
+  bottom: 32%;
+  font-size: 18px;
+}
+
+.icon2 {
+  position: absolute;
+  left: 43.5%;
+  bottom: 30%;
+  font-size: 20px;
+}
+
+.search-btn {
+  padding: 11px 20px;
+  background-color: #7676e9;
+  border: none;
+  border-radius: 10px;
+}
+
+.search-btn:hover {
+  background-color: #4040e3;
+  transition: 0.4s;
+}
+
+table {
+  position: relative;
+  left: -12px;
+}
+.para {
+  font-family: "Inter", Geneva, Tahoma, sans-serif;
+  font-weight: 10px;
+  font-size: 12px;
+  color: #6b6e6f;
+}
+
+/* media queries */
+
+@media screen and  (max-width: 499px){
+  
+  .hero-banner {
+   
+  }
+  .hero-img{
+    display: none;
+  }
+  .hero-content h1{
+    font-size: 2rem;
+  }
+  table tbody{
+    /* border: solid red; */
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+  }
+  table tbody tr td input{
+
+    width: 100%;
+
+  }
+ table .icon1 , .icon2{
+  display: none;
+ }
+
+ .searchBar {
+  margin: 10px;
+  padding:10px  30px;
+
+  border:2rem white ;
+
+}
+table{
+  width: 100%;
+/*   margin-left: 10px; */
+}
+
+tbody tr {
+ /*  border: solid blue; */
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+.search-btn{
+  width: 72vw;
+margin-top: 10px;
+}
+
+.hero-img{
+ 
+  display: block;
+ 
+}
+.hero-img img{
+ position: absolute;
+ top: 13%;
+ left: 25%;
+  width: 200px;
+  height: 150px;
+}
+}

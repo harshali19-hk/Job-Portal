@@ -1,0 +1,10 @@
+
+.container-fluid {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Inter', sans-serif;  
+    color: #7676e9;
+    background-color: #f4f5f8;
+}
