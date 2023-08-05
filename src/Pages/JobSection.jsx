@@ -1,15 +1,15 @@
 import React from "react";
 import FilterSection from "./FilterSection";
 import Navbar from "../Components/Navbar";
-import JobsData from "./JobsData";
+import JobsData from "../Pages/JobsData";
 
 const JobSection = () => {
   return (
-    <div>
+    <>
       <Navbar></Navbar>
       <FilterSection></FilterSection>
       <JobsData></JobsData>
-    </div>
+    </>
   );
 };
 

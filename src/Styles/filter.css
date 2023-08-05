@@ -1,19 +1,21 @@
 .filter-section {
-  height: 30vh;
+  height: 40vh;
   position: absolute;
   width: 100%;
-  top: 11%;
+  top: 7%;
+  /* border: solid; */
   background-color: #f4f5f8;
+  margin-bottom: 50%;
 }
 
 .filter-container {
-  padding: 10px;
+    border-radius: 10px;
   background-color: white;
-  border-radius: 10px;
+/*  border: solid; */
   position: absolute;
-  top: 20%;
-  left: 6%;
-  padding: 10px;
+  top: 25%;
+  left: 20%;
+  padding: 8px 8px;
   box-shadow: 0 0 20px rgba(118, 118, 223, 0.2);
   font-family: "Inter", sans-serif;
   margin-top: 15px;
@@ -25,12 +27,17 @@
 }
 
 .dropdowns {
-  border: none;
-  padding: 5px 20px;
+  border:none;
+  padding: 15px 20px;
+
+}
+.dropdowns option {
+  color: #7676e9; 
+font-family: "Inter", sans-serif;
 }
 
 .filter-search-btn {
-  padding: 20px 30px;
+  padding: 15px 25px;
   background-color: #7676e9;
   border-radius: 5px;
 }

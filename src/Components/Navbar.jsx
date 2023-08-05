@@ -1,11 +1,9 @@
 import React, { useState } from "react";
 import "../Styles/navbar.css";
 import { Link } from "react-router-dom";
-/* import {FaBars , FaTimes} from "react-icons/fa" */
 
 const Navbar = () => {
   const [clicked, setClicked] = useState(false);
-  const [userClick, setUserClick] = useState(false);
 
   const handleClick = () => {
     if (!clicked) {
@@ -14,8 +12,6 @@ const Navbar = () => {
       setClicked(false);
     }
   };
-
-  const handleUserClick = () => {};
 
   return (
     <div className="nav-container">
@@ -66,10 +62,9 @@ const Navbar = () => {
             </button>
           </div>
 
-          <button id="user-btn"  >
+          <button id="user-btn">
             <i className="fa-solid fa-user" id="user"></i>
           </button>
-         
         </div>
       </nav>
     </div>
